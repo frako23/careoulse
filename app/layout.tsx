@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="ico" href="/favicon.ico" />
+      </head>
       <body
         className={`${cn(
           "text-white min-h-screen bg-dark-300 font-sans antialiased",
